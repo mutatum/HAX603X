@@ -591,7 +591,7 @@ plt.legend()
 
 
 
-Le phénomène qui apparaît avec la loi de Cauchy est les suivant: les queues de la loi de Cauchy sont tellement épaisses que la moyenne empirique que l'écart entre  $\min_i(X_i)$ et le $\max_i(X_i)$ (les $X_i$ étant les tirages effectués) est du même ordre de grandeur que le nombre de tirages, $n$.
+Le phénomène qui apparaît avec la loi de Cauchy est les suivant: les queues de la loi de Cauchy sont tellement épaisses que l'écart entre $\min_i(X_i)$ et le $\max_i(X_i)$ (les $X_i$ étant les tirages effectués) est du même ordre de grandeur que le nombre de tirages, $n$.
 Comme la fonction `hist` discrétise l'intervalle $[\min(X_i), \max(X_i)]$ en le nombre de boîtes (`bins`) on observe peu de points dans chaque boîte ce qui rend l'estimation de la densité trop petite.
 
 Ce point n'est pas un problème pour les lois gaussiennes, car la largeur de l'intervalle $[\min(X_i), \max(X_i)]$ est de l'ordre de $\sqrt{\log(n)}$, et comme on a $n$ points à placer dans cet intervalle, il y a assez de points dans chaque boîte pour obtenir une bonne estimation.
